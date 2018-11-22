@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+header {
+  font: inherit;
+  font-size: 40pt;
+  background-color: #ff0000;
+  text-align: center;
+  padding: 40px;
+  border-style: solid;
+  border-width: 5px;
+}
+
+  table, th, td {
+    width: 100%;
+    text-align: center;
+  }
+  th {
+    height: 100px;
+    width: 30%;
+    font: inherit;
+    font-size: 20pt;
+  }
+  td {
+    height: 50px;
+    width: 30%;
+}

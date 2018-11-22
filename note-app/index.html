@@ -1,14 +1,33 @@
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="CSS/theme.css">
-    <script src="note-model.js"></script>
-    <script src="note-list-model.js"></script>
-    <script src="note-model-tests.js"></script>
-    <script src="note-list-model-tests.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+
+    <header>Notes</header>
   </head>
+
   <body>
 
-  <header>Notes</header>
+    <table>
+      <tr>
+    <th>Create A Note</th>
+    <th>List Of Created Notes</th>
+    <th>Your Note</th>
+  </tr>
+  <tr>
+    <td>
+  <input type="text" placeholder="note" id="usernote">
+  <button id="Save">
+  </button>
+    </td>
+    <td>
+      <div class="container">
+      <ul class="listNote" id="listNote"> </ul>
+      </div>
+    </td>
+    <td></td>
+  </tr>
+</table>
 
+    <script src="./js/note-model.js"></script>
   </body>
 </html>
